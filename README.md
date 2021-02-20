@@ -2,6 +2,9 @@
 Thomas Kakatsakis
 Lab 4 for course Geography 458 at the University of Washington
 
+The webmap can be viewed at:
+https://tkakatsakis.github.io/Map-Tile-Generation/
+
 I have created four tiled layers using Mapbox, QMetaTiles and QGIS. I describe each layer below:
 
 # Tile 1 - Outdoors Basemap
@@ -14,16 +17,19 @@ I have created four tiled layers using Mapbox, QMetaTiles and QGIS. I describe e
 ![Map Image](img/tile2.png)
 
 - Description of Tile: Points at the location of every recorded avalanche fatality in Washington state history. Lat and Lon values derived from Northwest Avalanche Center when available, or estimated based on news reports and accident descriptions. Compiled by me, as part of a larger research project considering backcountry recreation in Washington state.
+- Available Zoom level: 1-12
 - Geographic Area of Focus: Washington state.
 
-## Tile 1 Screenshot - Avalanche with Basemap
+## Tile 3 Screenshot - Avalanche with Basemap
 ![Map Image](img/tile3.png)
 
 - Description of Tile: A combination of the two layers described above. The location of avalanche fatalities display over a custom, outdoor focused basemap.
+- Available Zoom level: 1-12
 - Geographic Area of Focus: Washington state.
 
-## Tile 1 Screenshot - Modified Basemap
+## Tile 4 Screenshot - Seattle Census Tracts
 ![Map Image](img/tile4.png)
 
 - Description of Tile: Seattle Census Tracts, overlaid with a custom basemap. Intended for visualization of the census tracts of the city, with assorted colors to distinguish individual tracts and a customized basemap which highlights notable features including hospitals, schools and parks.
+- Available Zoom level: 1-12
 - Geographic Area of Focus: Seattle, Washington
