@@ -41,12 +41,12 @@
       attribution: 'Compiled from Northwest Avalanche Center',
       detectRetina: true
     });
-"""
+
     var seattle_tracts = L.tileLayer('tiles/Seattle_Tracts/{z}/{x}/{y}.png', {
       attribution: 'Seattle City GIS Census Tracts',
       detectRetina: true
     });
-"""
+
     var baseLayers = {
       'Grayscale': grayscale,
       'Streets': streets,
@@ -56,8 +56,8 @@
     var overlays = {
       "Outdoors Basemap": outdoors_basemap,
       "Avalanche": avalanche
-      "Avalanche with Basemap" avalanche_outdoors,
-  """    Seattle Tracts: seattle_tracts"""
+      "Avalanche with Basemap" avalanche_outdoors
+      "Seattle Tracts": seattle_tracts
     }
 
     L.control.layers(baseLayers, overlays, {
